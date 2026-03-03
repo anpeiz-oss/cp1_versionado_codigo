@@ -1,0 +1,9 @@
+On branch feature/gitignore
+Your branch is up to date with 'origin/feature/gitignore'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	EVIDENCIAS_gitignore.md
+	evidencias/
+
+nothing added to commit but untracked files present (use "git add" to track)
