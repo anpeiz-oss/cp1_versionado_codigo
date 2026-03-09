@@ -1,10 +1,17 @@
-*   0bbb53e feat: Added suma function merged from master on operations.py
+*   e28ef09 Merge pull request #5 from anpeiz-oss/feature/resta
 |\  
-| *   eac7257 Merge pull request #3 from anpeiz-oss/feature/suma
+| * f9900bb docs: Added evidencias/git-log.txt with git log --oneline --graph --all output
+* | c688811 Merge pull request #4 from anpeiz-oss/feature/resta
+|\| 
+| *   0bbb53e feat: Added suma function merged from master on operations.py
 | |\  
-| | * c85e9bc feat: Added new file operations.py with function suma operation
 | |/  
-* / d3daa79 feat: Added new file operations.py with function resta operation
+|/|   
+* |   eac7257 Merge pull request #3 from anpeiz-oss/feature/suma
+|\ \  
+| * | c85e9bc feat: Added new file operations.py with function suma operation
+|/ /  
+| * d3daa79 feat: Added new file operations.py with function resta operation
 |/  
 *   851b631 Merge pull request #2 from anpeiz-oss/feature/gitignore
 |\  
