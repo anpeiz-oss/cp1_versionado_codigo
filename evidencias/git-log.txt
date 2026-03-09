@@ -1,0 +1,19 @@
+*   0bbb53e feat: Added suma function merged from master on operations.py
+|\  
+| *   eac7257 Merge pull request #3 from anpeiz-oss/feature/suma
+| |\  
+| | * c85e9bc feat: Added new file operations.py with function suma operation
+| |/  
+* / d3daa79 feat: Added new file operations.py with function resta operation
+|/  
+*   851b631 Merge pull request #2 from anpeiz-oss/feature/gitignore
+|\  
+| * 53ba42c feat: gitignore evidences added to the repo
+* | 34a4886 Merge pull request #1 from anpeiz-oss/feature/gitignore
+|\| 
+| * 33a652c feat: Added .gitignore file with exclusion for .log files and __pycache__/ directory
+| * 47cea70 fix: Renamed EVIDENCIAS.md to EVIDENCIAS_proteccion_rama_principal.md
+| * f9dcf78 feat: New file EVIDENCIAS.md added. This file documents all the changes made to the repository until this point
+| * 9248609 fix: updated README.md mark down format
+|/  
+* 1856787 feat: initial commit - README.md file added
