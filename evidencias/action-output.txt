@@ -1,0 +1,35 @@
+﻿2026-03-10T14:30:07.5306081Z Current runner version: '2.332.0'
+2026-03-10T14:30:07.5331410Z ##[group]Runner Image Provisioner
+2026-03-10T14:30:07.5332283Z Hosted Compute Agent
+2026-03-10T14:30:07.5332939Z Version: 20260213.493
+2026-03-10T14:30:07.5333672Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+2026-03-10T14:30:07.5334361Z Build Date: 2026-02-13T00:28:41Z
+2026-03-10T14:30:07.5335098Z Worker ID: {36dec3f9-e176-4dce-adfb-94688385d0a8}
+2026-03-10T14:30:07.5335797Z Azure Region: westus
+2026-03-10T14:30:07.5336323Z ##[endgroup]
+2026-03-10T14:30:07.5337858Z ##[group]Operating System
+2026-03-10T14:30:07.5338485Z Ubuntu
+2026-03-10T14:30:07.5338997Z 24.04.3
+2026-03-10T14:30:07.5339688Z LTS
+2026-03-10T14:30:07.5340214Z ##[endgroup]
+2026-03-10T14:30:07.5340710Z ##[group]Runner Image
+2026-03-10T14:30:07.5341324Z Image: ubuntu-24.04
+2026-03-10T14:30:07.5341860Z Version: 20260302.42.1
+2026-03-10T14:30:07.5343087Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260302.42/images/ubuntu/Ubuntu2404-Readme.md
+2026-03-10T14:30:07.5344616Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260302.42
+2026-03-10T14:30:07.5345540Z ##[endgroup]
+2026-03-10T14:30:07.5346717Z ##[group]GITHUB_TOKEN Permissions
+2026-03-10T14:30:07.5348787Z Contents: read
+2026-03-10T14:30:07.5349739Z Metadata: read
+2026-03-10T14:30:07.5350589Z Packages: read
+2026-03-10T14:30:07.5351104Z ##[endgroup]
+2026-03-10T14:30:07.5353317Z Secret source: Actions
+2026-03-10T14:30:07.5354156Z Prepare workflow directory
+2026-03-10T14:30:07.5693981Z Prepare all required actions
+2026-03-10T14:30:07.5794766Z Complete job name: saludo
+2026-03-10T14:30:07.6597906Z ##[group]Run echo "Hola Angel Pérez Izquierdo! este es un saludo lanzado de forma manual desde un github action, especialmente para ti."
+2026-03-10T14:30:07.6600131Z [36;1mecho "Hola Angel Pérez Izquierdo! este es un saludo lanzado de forma manual desde un github action, especialmente para ti."[0m
+2026-03-10T14:30:07.7349748Z shell: /usr/bin/bash -e {0}
+2026-03-10T14:30:07.7350925Z ##[endgroup]
+2026-03-10T14:30:07.7682511Z Hola Angel Pérez Izquierdo! este es un saludo lanzado de forma manual desde un github action, especialmente para ti.
+2026-03-10T14:30:07.7788948Z Cleaning up orphan processes
