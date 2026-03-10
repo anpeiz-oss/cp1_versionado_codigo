@@ -1,0 +1,41 @@
+# Este es un workflow simple cuya ejecución se dispara de forma manual
+
+name: Manual workflow
+
+# Esta definición controla cuando la acción se ejecutará. 
+# Este workflow se ejecutará manualmente desde la Interfaz de Usuario o bien mediante una llamada remota directa contra la API.
+on:
+  workflow_dispatch:
+    # Entradas que aceptará cada una de las ejecuciones del workflow.
+    inputs:
+      nombre:
+        # Descripción a mostrar en el momento de introducir la entrada por la Interfaz de Usuario en lugar de simplemente 'nombre'.
+        description: 'Nombre de la persona cuyo nombre se desea mostrar por pantalla.'
+        # Valor por defecto de la entrada si no se proporcina uno explicitamente.
+        default: 'Angel'
+        # Indica si el valor de este campo debe ser proporcionado para que el workflow se ejecute o no.
+        required: true
+        # El tipo de datos del campo de entrada.
+        type: string
+      apellidos:
+        # Descripción a mostrar en el momento de introducir la entrada por la Interfaz de Usuario en lugar de simplemente 'apellidos'.
+        description: 'Apellidos de la persona cuyos apellidos se desea mostrar por pantalla.'
+        # Valor por defecto de la entrada si no se proporcina uno explicitamente.
+        default: 'Pérez Izquierdo'
+        # Indica si el valor de este campo debe ser proporcionado para que el workflow se ejecute o no.
+        required: true
+        # El tipo de datos del campo de entrada.
+        type: string
+
+# Una ejecución de workflow se compone de uno o más trabajos que pueden ejecutarse secuencialmente o en paralelo
+jobs:
+  # Este workflow está compuesta por una única tarea simple denominada "saludo"
+  saludo:
+    # Indica el tipo de ejecutar que va a ejecutar la secuencia de tareas/trabajos definidos a continuación.
+    runs-on: ubuntu-latest
+
+    # Steps representa una secuencia de tareas o pasos a ejecutar dentro de un trabajo.
+    steps:
+    # Ejecuta un comando simple ejecutando el ejecutor del shell por defectodel sistema operativo ubuntu
+    - name: Enviar saludo
+      run: echo "Hola ${{ inputs.nombre }} ${{ inputs.apellidos }}! este es un saludo lanzado de forma manual desde un github action, especialmente para ti."
